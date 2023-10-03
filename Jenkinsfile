@@ -3,7 +3,7 @@ pipeline{
   parameters{
   string(name: 'environment', defaultValue: 'dev')
   string(name: 'version' , defaultValue: '1.0' )
-  choice( choices: 'US\nUK' )
+  choice( choices: 'US\nUK' , name: 'region' )
   password(name: 'mypassword')
   }
   stages {

@@ -10,7 +10,7 @@ pipeline{
     stage('EX')
           {
             steps {
-              echo "environment ${params.environment}    version ${params.version}
+              echo "environment ${params.environment}    version ${params.version}"
             }  
             
           }

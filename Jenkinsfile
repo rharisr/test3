@@ -7,7 +7,7 @@ pipeline{
   password(name: 'mypassword')
   }
   stages {
-    stage('EX)
+    stage('EX')
           {
             steps {
               echo "environment ${params.environment}    version ${params.version}

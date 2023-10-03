@@ -5,7 +5,7 @@ pipeline{
   string(name: 'version' , defaultValue: '1.0' )
   choice( choices: 'US\nUK' , name: 'region' )
   password(name: 'mypassword', required: true)
-  credentials( name: 'myCredentials', description: 'myCredentialsDec', required: true )
+  //credentials( name: 'myCredentials', description: 'myCredentialsDec', required: true )
   }
   stages {
     stage('EX')
